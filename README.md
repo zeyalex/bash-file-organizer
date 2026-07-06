@@ -1,5 +1,7 @@
 # Bash File Organizer 🚀
 
+​                                                             ![License](https://img.shields.io/badge/license-MIT-blue)![Bash](https://img.shields.io/badge/Bash-4.3+-green)![Platform](https://img.shields.io/badge/Linux-Ubuntu-orange)
+
 A robust, production-ready Bash script designed to clean up and automatically organize cluttered directories (like your default `Downloads` folder) by grouping files into dedicated subdirectories based on their file extensions.
 
 It utilizes advanced Bash programming techniques such as associative-like array passing via reference flags (`local -n`), streamlined pattern matching using `case` blocks, and native high-performance array absorption via `mapfile`.
@@ -124,7 +126,7 @@ A `systemd` user timer is the most flexible option: it survives suspend/hibernat
    ```ini
    [Unit]
    Description=Organize Downloads folder
-
+   
    [Service]
    Type=oneshot
    ExecStart=/bin/bash /home/YOUR_USERNAME/projects/bash-file-organizer/organizer.sh
@@ -137,11 +139,11 @@ A `systemd` user timer is the most flexible option: it survives suspend/hibernat
    ```ini
    [Unit]
    Description=Run bash-file-organizer daily
-
+   
    [Timer]
    OnCalendar=*-*-* 03:00:00
    Persistent=true
-
+   
    [Install]
    WantedBy=timers.target
    ```
