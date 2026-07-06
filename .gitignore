@@ -1,5 +1,13 @@
+
+# Logs
 *.log
+
+# Temporary files 
 *~
+*.tmp
+*.temp
+
+# Editors
 *.swp
 .vscode/
 .idea/
