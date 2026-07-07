@@ -1,6 +1,6 @@
 # Bash File Organizer 🚀
 
-​                                                             ![License](https://img.shields.io/badge/license-MIT-blue)![Bash](https://img.shields.io/badge/Bash-4.3+-green)![Platform](https://img.shields.io/badge/Linux-Ubuntu-orange)
+​                                                             ![License](https://img.shields.io/badge/license-MIT-blue) ![Bash](https://img.shields.io/badge/Bash-4.3+-green) ![Platform](https://img.shields.io/badge/Linux-Ubuntu-orange)
 
 A robust, production-ready Bash script designed to clean up and automatically organize cluttered directories (like your default `Downloads` folder) by grouping files into dedicated subdirectories based on their file extensions.
 
